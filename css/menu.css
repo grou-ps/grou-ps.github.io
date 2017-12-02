@@ -170,6 +170,9 @@
 #cssmenu > ul > li.has-sub > a {
   padding-right: 40px;
 }
+#cssmenu > ul > li.middle > a {
+  padding-right: 20px;
+}
 #cssmenu > ul > li.has-sub > a:after {
   display: block;
   content: "";
