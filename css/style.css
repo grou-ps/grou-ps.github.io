@@ -1,0 +1,243 @@
+﻿/*General Css*/
+
+body {
+    padding-top: 100px;
+}
+a {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    border-bottom: 0px;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+}
+button:hover {
+    background-color: #e1483d;
+    color: #fff;
+    transition: all 0.4s ease-in-out;
+}
+img {
+    max-width: 100%
+}
+textarea {
+    height: 120px;
+    resize: none
+}
+iframe {
+    width: 100%;
+    border: 0;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 10+ */
+    
+    filter: gray;
+    /* IE6-9 */
+    
+    -webkit-filter: grayscale(99%);
+    /* Chrome 19+ & Safari 6+ */
+    
+    -webkit-backface-visibility: hidden;
+    /* Fix for transition flickering */
+}
+
+/*Pages CSS*/
+
+/*Header CSS*/
+.header {
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    font-weight: 900;
+    letter-spacing: .1em;
+    padding: 50px 0;
+    background-color: #fff;
+    width: 90%;
+    margin: 0px 5%;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.header.shrink {
+    padding: 20px 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.logo {
+   width:100%;
+   float:left;
+	padding:20px 0
+}
+.logo a {
+    color: #222222;
+	padding:20px 0
+}
+.tagline {
+    color: #bbbbbb;
+    margin-left: 1vw
+}
+.menu {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    float: right
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: right;
+    margin-right: 20px
+}
+.menu li a {
+    color: #333
+}
+.menu li a:hover {
+    color: #e1483d;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+}
+
+
+/*Home Page css*/
+.main-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1140px;
+}
+.main-content p {
+    font-size: 5.4vw;
+    color: #e1483d;
+    font-family: 'Lusitana', serif;
+    text-align: center
+}
+
+/*Contact Page css*/
+.contact-form-section {
+    float: left;
+    width: 100%;
+    margin-bottom: 150px;
+}
+.contact-form-section .fields-wrapper {
+    margin-bottom: 25px;
+}
+.contact-form-section h2 {
+    font-size: 1.8vw;
+    font-family: 'Lusitana', serif;
+}
+.map-section {
+    float: left;
+    width: 100%;
+    margin-bottom: 100px;
+    padding-top: 100px;
+}
+.map-section h1 {
+    font-size: 2.6vw;
+    font-family: 'Lusitana', serif;
+    margin-bottom: .75em;
+}
+.map-section p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    line-height: 39px;
+}
+.title-contact {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+.button {
+    border: 2px solid #E1483D;
+    padding: 1em 2.5em;
+    font-weight: 900;
+    color: #E1483D;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    float: left
+}
+.secondry-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    line-height: 39px;
+}
+.text-field {
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    background: rgb(250, 250, 250);
+    width: 100%
+}
+.text-field:hover,
+.text-field:focus,
+.text-field:active {
+    padding: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    background: #fff;
+    width: 100%
+}
+
+
+/*Gym Page*/
+.gym-section {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+	padding-top:40px
+}
+.gym-contact-form-section {
+    width: 100%;
+    max-width: 700px;
+    margin: 100px auto;
+}
+.gym-text{
+	padding-top:35px;
+	float:left;
+	width:100%;
+	padding-bottom:100px;
+}
+
+.gym-text p {
+    font-size: 18px;
+    font-weight: 700;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    line-height: 40px;
+	letter-spacing:1px;
+}
+.gym-contact-form-section p {
+    font-size: 15px;
+    font-weight: 900;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+.gym-contact-form-section .fields-wrapper {
+    margin-bottom: 25px;
+}
