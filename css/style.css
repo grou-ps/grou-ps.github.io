@@ -50,6 +50,7 @@ iframe {
 /*Pages CSS*/
 
 /*Header CSS*/
+.homepage .header{background-color:transparent;}
 .header {
     font-family: 'Lato', sans-serif;
     font-size: 13px;
@@ -57,8 +58,8 @@ iframe {
     letter-spacing: .1em;
     padding: 50px 0;
     background-color: #fff;
-    width: 90%;
-    margin: 0px 5%;
+    width: 100%;
+    margin: 0px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     transition: all 0.3s;
@@ -199,6 +200,23 @@ iframe {
     background: #fff;
     width: 100%
 }
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade { 
+   opacity: .5;
+}
 
 
 /*Gym Page*/
@@ -240,4 +258,29 @@ iframe {
 }
 .gym-contact-form-section .fields-wrapper {
     margin-bottom: 25px;
+}
+footer{
+	background-color:#222e2e;
+	float:left;
+	width:100%;
+	padding:30px 0
+}
+footer img{
+	max-width:150px;transition: all 0.4s ease-in-out;
+ }
+ footer img:hover{
+	 filter: brightness(0) invert(1);transition: all 0.4s ease-in-out;
+ }
+footer p{
+	font-size: 14px;
+    font-weight: 400;
+    color: #b5b1b1;
+    font-family: 'Lato', sans-serif;
+    line-height: 19px;
+	letter-spacing:2px
+}
+.white{color:#fff}
+
+@media (max-width: 768px) {
+	.gym-section{padding-top:90px;}
 }
