@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
    <head>
       <title>GymGroups</title>
@@ -85,32 +85,34 @@
                </p>
                <div class="row">
 			   
-				  <!-- Form Start-->
-                  <div class="col-sm-12 fields-wrapper">
-                     <div class="title-contact">Name *</div>
-                     <div class="row">
-                        <div class="col-sm-6">
-                           <input type="text" class="text-field" />
-                           <span class="secondry-title">First Name</span>
-                        </div>
-                        <div class="col-sm-6">
-                           <input type="text" class="text-field" />
-                           <span class="secondry-title">Last Name</span>
+				   <form action="https://formspree.io/business@groups-inc.com" method="POST">
+                     <div class="col-sm-12 fields-wrapper">
+                        <div class="title-contact">Name *</div>
+                        <div class="row">
+                           <div class="col-sm-6">
+                              <input type="text" name="name" class="text-field" />
+                              <span class="secondry-title">First Name</span>
+                           </div>
+                           <div class="col-sm-6">
+                              <input type="text" name="lastname" class="text-field" />
+                              <span class="secondry-title">Last Name</span>
+                           </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="col-sm-12 fields-wrapper">
-                     <div class="title-contact">Email Address *</div>
-                     <input type="text" class="text-field" />
-                  </div>
-                  <div class="col-sm-12 fields-wrapper">
-                     <div class="title-contact">Message *</div>
-                     <textarea type="text" class="text-field" placeholder="Please tell us about who you are, number of members & locations. "></textarea>
-                  </div>
-                  <div class="col-sm-12 fields-wrapper">
-                     <button  class="button">Submit</button>
-                  </div>
-				  <!-- Form End-->
+                     <div class="col-sm-12 fields-wrapper">
+                        <div class="title-contact">Email Address *</div>
+                        <input type="email" name="_replyto" class="text-field" />
+                     </div>
+                     
+                     <div class="col-sm-12 fields-wrapper">
+                        <div class="title-contact">Message *</div>
+                        <textarea type="text" name="message" class="text-field" ></textarea>
+                     </div>
+                     <div class="col-sm-12 fields-wrapper">
+                        <input type="submit" class="button" value="Submit" >
+                     </div>
+					 
+					 </form>
 				  
                </div>
             </div>
