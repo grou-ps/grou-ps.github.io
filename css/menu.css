@@ -166,6 +166,9 @@
   -o-transition: height .2s;
   transition: height .2s;
 }
+#cssmenu > ul > li.first > a {
+  padding-right: 25px;
+}
 #cssmenu > ul > li.has-sub > a {
   padding-right: 40px;
 }
