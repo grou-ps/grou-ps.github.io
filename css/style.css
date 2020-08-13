@@ -284,3 +284,8 @@ footer p{
 @media (max-width: 768px) {
 	.gym-section{padding-top:90px;}
 }
+@media (min-width: 1500px) {
+	.main-content p {
+	font-size: 80px;
+}
+}
